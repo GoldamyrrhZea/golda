@@ -2,7 +2,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const HistoryDetailScreen = () => {
+const SteakDetailScreen = () => {
   return (
     <View style={styles.container}>
       <Text>This is the History Detail Screen</Text>
@@ -18,4 +18,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HistoryDetailScreen
+export default SteakDetailScreen

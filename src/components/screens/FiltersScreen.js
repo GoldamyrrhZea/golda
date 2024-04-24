@@ -11,7 +11,7 @@ const FilterScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.heading}>Filter Books</Text>
+      <Text style={styles.heading}>Filter Delicacies</Text>
 
       <TouchableOpacity
         style={[styles.filterButton, filterMode === 'dark' && styles.darkMode]}

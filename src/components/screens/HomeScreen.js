@@ -2,9 +2,9 @@ import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import history from '../../../assets/history.png';
-import other from '../../../assets/other.png';
-import biology from '../../../assets/biology.png';
+import history from '../../../assets/sea-food.jpg';
+import other from '../../../assets/12.jpg';
+import biology from '../../../assets/12.png';
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -26,7 +26,7 @@ const HomeScreen = () => {
             style={[styles.image, { width: imageSize, height: imageSize }]}
             resizeMode="contain"
           />
-          <Text style={styles.categoryText}>History</Text>
+          <Text style={styles.categoryText}>See Food's</Text>
         </TouchableOpacity>
 
         <TouchableOpacity onPress={() => navigateToScreen('BiologyScreen')} style={styles.imageWrapper}>
@@ -35,7 +35,7 @@ const HomeScreen = () => {
             style={[styles.image, { width: imageSize, height: imageSize }]}
             resizeMode="contain"
           />
-          <Text style={styles.categoryText}>Biology</Text>
+          <Text style={styles.categoryText}>Pinoy style</Text>
         </TouchableOpacity>
 
         <TouchableOpacity onPress={() => navigateToScreen('OtherScreen')} style={styles.imageWrapper}>
@@ -44,7 +44,7 @@ const HomeScreen = () => {
             style={[styles.image, { width: imageSize, height: imageSize }]}
             resizeMode="contain"
           />
-          <Text style={styles.categoryText}>Other</Text>
+          <Text style={styles.categoryText}>Steak's</Text>
         </TouchableOpacity>
       </View>
     </View>

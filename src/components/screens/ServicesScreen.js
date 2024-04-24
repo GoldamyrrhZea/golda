@@ -5,12 +5,12 @@ const ServicesScreen = () => {
 
   const handleBrowseBooks = () => {
     // Implement browsing logic here
-    Alert.alert('Browse Books', 'You are browsing the book collection!');
+    Alert.alert('Menu', 'You are browsing the book collection!');
   };
 
   const handleSearchBooks = () => {
     // Implement searching logic here
-    Alert.alert('Search Books', 'You are searching for books!');
+    Alert.alert('Delicacies', 'You are searching for books!');
   };
 
   const handleViewFavorites = () => {
@@ -25,14 +25,14 @@ const ServicesScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.heading}>Explore Our Book Services</Text>
+      <Text style={styles.heading}>Explore the Taste</Text>
 
       <TouchableOpacity style={styles.button} onPress={handleBrowseBooks}>
-        <Text style={styles.buttonText}>Browse Books</Text>
+        <Text style={styles.buttonText}>Menu</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.button} onPress={handleSearchBooks}>
-        <Text style={styles.buttonText}>Search Books</Text>
+        <Text style={styles.buttonText}>Delicacies</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.button} onPress={handleViewFavorites}>
@@ -62,16 +62,18 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   button: {
-    backgroundColor: '#2196F3',
+    backgroundColor: '#503a1f',
     paddingVertical: 15,
     paddingHorizontal: 40,
     borderRadius: 30,
     marginBottom: 20,
+    width: '70%',
   },
   buttonText: {
     color: 'white',
     fontSize: 18,
     fontWeight: 'bold',
+    textAlign: 'center',
   },
 });
 

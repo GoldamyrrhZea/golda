@@ -7,10 +7,7 @@ import focus from '../../../assets/focus.png';
 const FavoritesScreen = () => {
   
   const favoriteItems = [
-    { id: '1', name: 'Favorite Book 1', image:history},
-    { id: '2', name: 'Favorite Book 2', image:biology },
-    { id: '3', name: 'Favorite Book 3', image:other },
-    { id: '4', name: 'Favorite Book 4', image:focus },
+   
     
   ];
 
